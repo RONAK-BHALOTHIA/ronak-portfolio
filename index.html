@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronak Bhalothia — Portfolio</title>
+
+    <!-- Fonts: JetBrains Mono for code-flavored headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">ronak<span class="accent">.dev</span></div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active" data-link>home</a></li>
+            <li><a href="#about" class="nav-link" data-link>about</a></li>
+            <li><a href="#skills" class="nav-link" data-link>skills</a></li>
+            
+            <li><a href="#projects" class="nav-link" data-link>projects</a></li>
+            <li><a href="#contact-details" class="nav-link" data-link>contact</a></li>
+        </ul>
+
+        <button class="burger" aria-label="Toggle navigation menu" aria-expanded="false">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+    </nav>
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <p class="hero-kicker">// hi there, i build for the web</p>
+                <h1>Ronak Bhalothia</h1>
+                <p class="hero-sub">Turning ideas into clean, working code — one project at a time.</p>
+                <div class="hero-actions">
+                    <a href="#skills" class="btn btn-primary">See my skills</a>
+                    <a href="#contact-details" class="btn btn-ghost">Get in touch</a>
+                </div>
+            </div>
+
+
+            <div class="hero-icons" aria-hidden="true">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="float-icon icon-1">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="float-icon icon-2">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" class="float-icon icon-3">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="float-icon icon-4">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="float-icon icon-5">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="float-icon icon-6">
+</div>
+
+            <div class="terminal" role="img" aria-label="Code snippet describing Ronak as an aspiring web developer">
+                <div class="terminal-bar">
+                    <div class="terminal-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <span class="terminal-title">ronak.js</span>
+                </div>
+                <pre class="terminal-body"><code><span class="tk-comment">// portfolio.init()</span>
+        <span class="tk-key">const</span> developer = {
+  name: <span class="tk-string">"Ronak Bhalothia"</span>,
+  role: <span class="tk-string">"Aspiring Web Developer"</span>,
+  year: <span class="tk-string">"B.Tech CSE, 3rd year"</span>,
+  status: <span id="typed-status" class="tk-string"></span><span class="cursor">&nbsp;</span>
+};</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Introduction -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About me</h2>
+            <div class="about-content">
+                <p>I'm currently pursuing my <strong>Bachelor of Technology (B.Tech)</strong> in Computer Science and Engineering, now in my <strong>3rd year</strong>.</p>
+                <p>My passion lies in building interactive, user-friendly websites. I'm on a journey to becoming a proficient <strong>web developer</strong>, focused first on mastering HTML, CSS, and JavaScript, and eventually moving into back-end development.</p>
+                <p>I'm a quick learner and a dedicated problem-solver who enjoys turning ideas into reality through code — working on personal projects, contributing to open source, and building modern, responsive, efficient web applications along the way.</p>
+                <p>I'm currently open to <strong>internship opportunities</strong> and freelance projects where I can apply what I know and learn from people further along the path.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-list">
+
+                <div class="skill-row">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" class="skill-icon">
+                    <div class="skill-info">
+                        <h3>HTML5</h3>
+                        <p>Structure & semantics</p>
+                    </div>
+                </div>
+
+                <div class="skill-row">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" class="skill-icon">
+                    <div class="skill-info">
+                        <h3>CSS3</h3>
+                        <p>Styling & responsive layout</p>
+                    </div>
+                </div>
+
+                <div class="skill-row">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" class="skill-icon">
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                        <p>Interactivity & logic</p>
+                    </div>
+                </div>
+
+                <div class="skill-row">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="" class="skill-icon">
+    <div class="skill-info">
+        <h3>TypeScript</h3>
+        <p>Typed, scalable JavaScript</p>
+    </div>
+</div>
+
+<div class="skill-row">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" class="skill-icon">
+    <div class="skill-info">
+        <h3>React</h3>
+        <p>Component-based UI development</p>
+    </div>
+</div>
+
+<div class="skill-row">
+    <span class="skill-icon skill-icon--fa"><i class="fas fa-plug"></i></span>
+    <div class="skill-info">
+        <h3>APIs</h3>
+        <p>Consuming REST APIs & JSON data</p>
+    </div>
+</div>
+
+
+
+<div class="skill-row">
+    <span class="skill-icon skill-icon--fa"><i class="fab fa-github"></i></span>
+    <div class="skill-info">
+        <h3>GitHub</h3>
+        <p>Collaboration & pull requests</p>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-list">
+
+            <div class="project-row">
+                <div class="project-info">
+                    <h3>AI Study Assistant</h3>
+                    <a href="https://ai-study-assistant-qstq9phwryvc327lq7x6du.streamlit.app/" target="_blank" rel="noopener" class="project-link">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                        View live
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-row">
+                <div class="project-info">
+                    <h3>AI Study Planner</h3>
+                    <a href="https://ai-study-planner-git-master-ronak-bhalothia1.vercel.app/" target="_blank" rel="noopener" class="project-link">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                        View live
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Details Section -->
+    <section id="contact-details" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in touch</h2>
+
+            <div class="contact-list">
+
+                <a class="contact-row" href="tel:+918901253205">
+                    <i class="fas fa-phone-alt"></i>
+                    <span class="contact-label">phone</span>
+                    <span class="contact-value">+91 89012 53205</span>
+                </a>
+
+                <a class="contact-row" href="mailto:ronakbhalothia47@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    <span class="contact-label">email</span>
+                    <span class="contact-value">ronakbhalothia47@gmail.com</span>
+                </a>
+
+                <a class="contact-row" href="https://instagram.com/ronak___4747" target="_blank" rel="noopener">
+                    <i class="fab fa-instagram"></i>
+                    <span class="contact-label">instagram</span>
+                    <span class="contact-value">@ronak___4747</span>
+                </a>
+
+                <a class="contact-row" href="https://linkedin.com/in/ronak-bhalothia-003ab2372" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin"></i>
+                    <span class="contact-label">linkedin</span>
+                    <span class="contact-value">ronak-bhalothia</span>
+                </a>
+
+                <a class="contact-row" href="https://leetcode.com/Ronak_Bhalothia" target="_blank" rel="noopener">
+                    <i class="fas fa-code"></i>
+                    <span class="contact-label">leetcode</span>
+                    <span class="contact-value">Ronak_Bhalothia</span>
+                </a>
+
+                <a class="contact-row" href="https://github.com/RONAK-BHALOTHIA" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i>
+                    <span class="contact-label">github</span>
+                    <span class="contact-value">RONAK-BHALOTHIA</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ronak Bhalothia. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
