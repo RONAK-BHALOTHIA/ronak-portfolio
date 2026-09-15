@@ -94,3 +94,21 @@ if (cursorDot && cursorRing && window.matchMedia('(hover: hover)').matches) {
     el.addEventListener('mouseleave', () => cursorRing.classList.remove('hovering'));
   });
 }
+
+// Add Person structured data for SEO
+// const personSchema = document.createElement('script');
+// personSchema.type = 'application/ld+json';
+// personSchema.textContent = JSON.stringify({
+//   "@context": "https://schema.org",
+//   "@type": "Person",
+//   "name": "Ronak Bhalothia",
+//   "url": "https://ronakportfolio-lovat.vercel.app/",
+//   "jobTitle": "Aspiring Web Developer",
+//   "sameAs": [
+//     "https://github.com/RONAK-BHALOTHIA",
+//     "https://linkedin.com/in/ronak-bhalothia-003ab2372",
+//     "https://instagram.com/ronak___4747",
+//     "https://leetcode.com/Ronak_Bhalothia"
+//   ]
+// });
+// document.head.appendChild(personSchema);
