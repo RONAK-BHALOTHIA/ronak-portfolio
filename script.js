@@ -112,3 +112,19 @@ if (cursorDot && cursorRing && window.matchMedia('(hover: hover)').matches) {
 //   ]
 // });
 // document.head.appendChild(personSchema);
+
+
+{/* <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ronak Bhalothia",
+  "image": "https://yourdomain.com/ronak-bhalothia.jpg",
+  "url": "https://yourdomain.com",
+  "jobTitle": "Computer Science Student",
+  "sameAs": [
+    "https://www.linkedin.com/in/your-profile",
+    "https://github.com/your-username"
+  ]
+}
+</script> */}
